@@ -1,0 +1,15 @@
+{
+  "name": "psd-generator",
+  "version": "1.0.0",
+  "description": "Generate customized PSD files from templates via API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ag-psd": "^30.1.0",
+    "canvas": "^2.11.2",
+    "node-fetch": "^2.7.0"
+  }
+}
